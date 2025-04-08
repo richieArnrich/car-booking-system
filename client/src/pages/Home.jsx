@@ -31,7 +31,7 @@ function Home() {
             <div key={car._id} className="col-md-4">
               <div class="card" style={{ width: "18rem" }}>
                 <img
-                  src={`http://localhost:4000${car.image}`}
+                  src={`https://car-booking-system.onrender.com${car.image}`}
                   class="card-img-top"
                   alt={`${car.name} image`}
                 />

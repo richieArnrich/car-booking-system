@@ -61,7 +61,7 @@ function BookPage() {
       <div className="d-flex">
         <div className="p-3 m-3 border-right">
           <img
-            src={`http://localhost:4000${car.image}`}
+            src={`https://car-booking-system.onrender.com${car.image}`}
             style={{ height: "20rem" }}
             alt={`${car.name} image`}
           />
