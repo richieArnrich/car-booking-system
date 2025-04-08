@@ -24,7 +24,7 @@ const connect = async () => {
 
 app.use(
   cors({
-    origin: "https://car-booking-system-zeta.vercel.app/",
+    origin: "https://car-booking-system-zeta.vercel.app",
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
   })
