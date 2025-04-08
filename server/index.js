@@ -24,9 +24,9 @@ const connect = async () => {
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: "https://car-booking-system-zeta.vercel.app/",
     credentials: true,
-    METHODS: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 
